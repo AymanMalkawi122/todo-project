@@ -1,0 +1,18 @@
+
+th,
+td {
+  border: 1px solid black;
+}
+
+td input+label{
+padding-left: 20px;
+padding-right: 100px;
+}
+
+main table{
+  margin-top: 200px;
+  margin-left: 600px;
+  display: flex;
+  align-self: center;
+}
+

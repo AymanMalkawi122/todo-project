@@ -6,59 +6,65 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/headerStyle.css">
+  <link rel="stylesheet" href="./css/footerStyle.css">
+  <link rel="stylesheet" href="./css/homeStyle.css">
 </head>
 
 <body>
 
   <header>
-    <section id="LogoAndName">
-
-      <img src="Assets /logo.jfif" alt="logo">
-      <h1>Todoist</h1>
-
-    </section>
-
-    <section id="navBar">
+    <div>
       <nav>
-        <a Href="./about.html">About</a>
+        <img src="Assets /logo.png" alt="logo" id="logo">
+        <a id="siteName">Todoist</a>
+        <a Href="./about.html" class="navBarElement">About</a>
       </nav>
-    </section>
+    </div>
   </header>
 
-<main>
+  <main>
 
-  <section id="TasksLabel">
-    <h3>Status</h3> 
-    <h3>Tasks</h3>
-  </section>
+    <table id="listOfTasks">
+      <tr>
+        <td><b>Tasks</b></td>
+        <td><b>Status</b></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" class="taskCheckBox">
+          <label for="vehicle1"> solve lab</label>
+        </td>
+        <td bgcolor="green"></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" class="taskCheckBox">
+          <label for="vehicle1"> exercise</label>
+        </td>
+        <td bgcolor="red"></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" class="taskCheckBox">
+          <label for="vehicle1"> read book</label>
+        </td>
+        <td bgcolor="green"></td>
+      </tr>
+    </table>
 
-  <section id="TasksList">
-    <ol>
-      <li>solve lab</li>
-      <li>exercise</li>
-      <li>read book</li>
-    </ol>
-  </section>
+  </main>
 
-  <section id="TasksListInput">
-    <input type="checkbox" class="taskCheckBox">
-    <input type="checkbox" class="taskCheckBox">
-    <input type="checkbox" class="taskCheckBox">
-  </section>
-</main>
+  <footer>
+    <div id="contactInfo">
+      <h4 id="contactHeading">Contact us</h4>
+      <img src="Assets /twitter.webp" alt="Twitter"  id="twitter">
+      <img src="Assets /telegram.webp" alt="Telegram"  id="telegram">
+      <img src="Assets /Facebook.png" alt="Facebook"  id="facebook">
+    </div>
 
-<footer>
-  <section id="ContactInfo">
-<h4>Contact us</h4>
-<img src="Assets /twitter_logo.jfif" alt="Twitter">
-<img src="Assets /Facebook-logo.png" alt="Facebook" width="400" height="250">
-<img src="Assets /Telegram_logo.svg.webp" alt="Telegram" width="250" height="250">
-  </section>
-
-  <section id="CopyRight">
-    <h4>All Rights Reserved &#9400</h4>
-      </section>
-</footer>
+    <div id="copyRight">
+      <h4>All Rights Reserved &#9400</h4>
+    </div>
+  </footer>
 
 </body>
 

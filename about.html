@@ -6,38 +6,47 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/headerStyle.css">
+  <link rel="stylesheet" href="./css/footerStyle.css">
+  <link rel="stylesheet" href="./css/aboutStyle.css">
 </head>
 
 <body>
 
   <header>
-    <section id="LogoAndName">
-
-      <img src="Assets /logo.jfif" alt="logo">
-      <h1>Todoist</h1>
-
-    </section>
-
-    <section id="navBar">
+    <div>
       <nav>
-        <a Href="index.html">Home</a>
+        <img src="Assets /logo.png" alt="logo" id="logo">
+        <a id="siteName">Todoist</a>
+        <a Href="./index.html" class="navBarElement">Home</a>
       </nav>
-    </section>
+    </div>
   </header>
 
   <main>
 
-    <section id="Personal Info">
-      <h3>Personal Info</h3>
-      <img src="Assets /pesonal_photo.webp" alt="Personal Photo">
-      <h4>name</h4>
-      <h4>(name Field)</h4>
-      <h4>Email</h4>
-      <a>(Email Field)</a>
-      <h4>Residence</h4>
-      <h4>(Residence Field)</h4>
-    </section>
+    <h3>Personal Info</h3>
 
+    <div id="personalInfo">
+      <img src="Assets /personal_photo.webp" alt="Personal Photo" width="260" height="190">
+      <table>
+        <tr>
+          <td>name</td>
+          <td>(name Field)</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>(Email Field)</td>
+        </tr>
+        <tr>
+          <td>Residence</td>
+          <td>(Residence Field)</td>
+        </tr>
+      </table>
+
+    </div>
+<div>
     <h3>Edit Personal Info</h3>
     <form action="">
       <label for="name">Name</label>
@@ -48,20 +57,20 @@
       <input type="text"><br>
       <input type="submit">
     </form>
-
+<div>
   </main>
 
   <footer>
-    <section id="ContactInfo">
+    <div id="contactInfo">
       <h4>Contact us</h4>
-      <img src="Assets /twitter_logo.jfif" alt="Twitter">
-      <img src="Assets /Facebook-logo.png" alt="Facebook" width="400" height="250">
-      <img src="Assets /Telegram_logo.svg.webp" alt="Telegram" width="250" height="250">
-    </section>
+      <img src="Assets /twitter.webp" alt="Twitter" id="twitter">
+      <img src="Assets /Facebook.png" alt="Facebook" id="facebook">
+      <img src="Assets /telegram.webp" alt="Telegram" id="telegram">
+    </div>
 
-    <section id="CopyRight">
+    <div id="CopyRight">
       <h4>All Rights Reserved &#9400</h4>
-    </section>
+    </div>
   </footer>
 
 </body>

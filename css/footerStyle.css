@@ -1,0 +1,20 @@
+footer img{
+    width: 25px;
+    height: 25px;
+  }
+  #facebook{
+width: 50px;
+height: 27px;
+  }
+  footer{
+    margin-top: 400px;
+  display: flex;
+  }
+
+  #contactInfo{
+  display: flex;
+  align-self: center;
+  }
+  div+div h4{
+    padding-left: 400px;
+  }
