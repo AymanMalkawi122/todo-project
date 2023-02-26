@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(203, 190, 174);
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+
+    margin-left: 200%;
+}
+
+#logo {
+    margin-right: 200%;
+    width: 50px;
+}
