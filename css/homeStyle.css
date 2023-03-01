@@ -1,18 +1,21 @@
-
 th,
 td {
-  border: 1px solid black;
+  border: 2px solid rgb(2, 2, 2);
 }
 
-td input+label{
-padding-left: 20px;
-padding-right: 100px;
+main table tr td {
+  text-align: center;
 }
 
-main table{
-  margin-top: 200px;
-  margin-left: 600px;
+table {
+  width: 30%; 
+}
+
+main {
+  background-color: rgb(247, 240, 240);
   display: flex;
-  align-self: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
-
