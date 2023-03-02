@@ -1,20 +1,29 @@
-footer img{
-    width: 25px;
-    height: 25px;
-  }
-  #facebook{
-width: 50px;
-height: 27px;
-  }
-  footer{
-    margin-top: 400px;
+footer {
   display: flex;
-  }
+  background-color: rgb(31, 25, 25);
+  display: flex;
+  justify-content: space-between;
+}
 
-  #contactInfo{
+footer h4 {
+  color: antiquewhite;
+  font-size: large;
+  padding-left: 2%;
+  white-space: nowrap;
+}
+
+footer div a i,footer div i {
+  color: antiquewhite;
+}
+
+footer div {
+  margin: 2%;
   display: flex;
-  align-self: center;
-  }
-  div+div h4{
-    padding-left: 400px;
-  }
+  justify-content: space-between;
+}
+
+#contactInfo {
+  display: flex;
+  gap: 10%;
+
+}

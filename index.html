@@ -10,44 +10,44 @@
   <link rel="stylesheet" href="./css/headerStyle.css">
   <link rel="stylesheet" href="./css/footerStyle.css">
   <link rel="stylesheet" href="./css/homeStyle.css">
+  <script src="https://kit.fontawesome.com/4329b56d05.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
   <header>
-    <div>
-      <nav>
-        <img src="Assets /logo.png" alt="logo" id="logo">
-        <a id="siteName">Todoist</a>
-        <a Href="./about.html" class="navBarElement">About</a>
-      </nav>
-    </div>
+    <img src="Assets /logo.png" alt="logo" id="logo">
+    <a class="navBarElement" id="siteName">Todoist</a>
+    <a Href="./index.html" class="navBarElement">Home</a>
+    <a Href="./about.html" class="navBarElement">About</a>
   </header>
 
   <main>
-
     <table id="listOfTasks">
       <tr>
         <td><b>Tasks</b></td>
         <td><b>Status</b></td>
       </tr>
       <tr>
-        <td><input type="checkbox" class="taskCheckBox">
-          <label for="vehicle1"> solve lab</label>
+        <td>
+          <input type="checkbox" class="taskCheckBox">
+          <label for="vehicle1"> Solve lab</label>
         </td>
-        <td bgcolor="green"></td>
+        <td bgcolor="green"><b></b></td>
       </tr>
       <tr>
-        <td><input type="checkbox" class="taskCheckBox">
-          <label for="vehicle1"> exercise</label>
+        <td>
+          <input type="checkbox" class="taskCheckBox">
+          <label for="vehicle1"> Exercise</label>
         </td>
-        <td bgcolor="red"></td>
+        <td bgcolor="red"><b></b></td>
       </tr>
       <tr>
-        <td><input type="checkbox" class="taskCheckBox">
-          <label for="vehicle1"> read book</label>
+        <td>
+          <input type="checkbox" class="taskCheckBox">
+          <label for="vehicle1"> Read book</label>
         </td>
-        <td bgcolor="green"></td>
+        <td bgcolor="green"><b></b></td>
       </tr>
     </table>
 
@@ -55,17 +55,18 @@
 
   <footer>
     <div id="contactInfo">
-      <h4 id="contactHeading">Contact us</h4>
-      <img src="Assets /twitter.webp" alt="Twitter"  id="twitter">
-      <img src="Assets /telegram.webp" alt="Telegram"  id="telegram">
-      <img src="Assets /Facebook.png" alt="Facebook"  id="facebook">
+      <h4>Contact us</h4>
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin"></i></a>
     </div>
 
-    <div id="copyRight">
-      <h4>All Rights Reserved &#9400</h4>
+    <div>
+      <h4>All Rights Reserved: </h4>
+      <i class="fa-regular fa-copyright"></i>
     </div>
   </footer>
-
+  <script src="./js/home.js"> </script>
 </body>
 
 </html>
